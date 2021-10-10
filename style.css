@@ -1,0 +1,126 @@
+/*colors and fonts*/
+body{
+  background-color: #F6F6F6;
+  color:  #123C69;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+h1, h2{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+}
+h1{
+  color: #253746;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+h2{
+  color:#AC3B61;
+  font-size:  16px;
+  font-weight:16;
+}
+a{
+  font-family: 'Abril Fatface', cursive;
+  font-size:  14px;
+  text-decoration: none;
+  color: #FFA0A0;
+  transition: color 0.3s ease
+}
+a:hover{
+  color: #C9C4BF;
+}
+.img-circle{
+  width:  100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.container{
+  width:  700px;
+  margin:  40px auto;
+}
+@media (max-width: 870px){
+  .container{
+    width: 550px;
+  }
+}
+@media (max-width: 720px){
+
+  .container{
+    width: 400px;
+  }
+}
+@media (max-width: 620px){
+
+  .container{
+    width: 290px;
+  }
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align:  center;
+}
+.btt-blue{
+  background-color: #FFA0A0;
+  color:  white;
+  padding:  15px 20px;
+  border-radius: 5px;
+}
+.btt-blue:hover{
+  background-color: #C9C4BF;
+  color:  white;
+}
+.list-inline{
+  list-style: none; /*to get rid of points*/
+  padding-left: 0px;
+}
+.list-inline li{ /*descendent selector, we select elemenets inside*/
+  display: inline;
+  padding: 10px;
+}
+.list-inline i{/* to select emenets i*/
+  font-size: 50px;
+  color:  #FFA0A0;
+}
+.list-inline i:hover{
+  color:  #C9C4BF;
+}
+#intro p{/* to put soace between intro section text and link*/
+  margin-bottom: 40px;
+
+}
+
+.sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+}
+
+.page-content {
+  margin-left: 150px;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  padding-left: 10px;
+}
+
+@media (max-width: 870px){
+  .sidebar{
+    width: 140px;
+  }
+}
+@media (max-width: 720px){
+
+  .sidebar{
+    width: 120px;
+  }
+}
